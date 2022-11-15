@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*BACKGROUND------------------------------------------------------------------------------------------------*/
+
+
+
+body {
+    height: 240vh;
+    background: linear-gradient(rgb(0, 140, 255), rgb(253, 6, 253), rgb(0, 60, 255), rgb(252, 74, 198), rgb(68, 199, 171), rgb(224, 25, 158));
+
+    /* background: radial-gradient(rgb(0, 140, 255), red, yellow, green) */
+}
+
+
+/* body {
+    background-image: url(../images/sun-tornado.svg);
+    filter: blur(0px);
+    height: 800px;
+
+
+} */
+
+/* .background {
+    background-image: url(../images/quantum-gradient.svg);
+    filter: blur(0px);
+    height: 1000px;
+
+
+} */
+
+
+
+/*PARAGRAFO----------------------------------------------------------------------------------------------*/
+
+/* Código do Layel
+
+ .text {
+    right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    font-weight: bold;
+    text-decoration: none;
+} */
+
+
+.text {
+    position: absolute;
+    right: 450px;
+    font-weight: solid;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+
+}
+
+
+
+
+
+
+/* CORES -----------------------------------------------------------------------------------------------------*/
+
+
+.red {
+    color: red;
+}
