@@ -1,0 +1,54 @@
+* {
+    padding: auto;
+    margin: auto;
+}
+
+
+
+
+/*------------------------------------------------------Fontes------------------------------------------------------------------------*/
+
+/* .letra-boba {
+    font-family: 'DynaPuff', cursive;
+} */
+
+
+/*------------------------------------------------------Background------------------------------------------------------------------------*/
+
+
+
+
+
+
+.background {
+    background-color: black;
+    height: 1000px;
+}
+
+
+
+h1 {
+    color: white;
+}
+
+
+
+.pior-momento {
+    height: 500px;
+    position: absolute;
+}
+
+
+
+/*------------------------------------------------------Cores------------------------------------------------------------------------*/
+
+
+.red {
+    color: red;
+    font-family: 'DynaPuff', cursive;
+}
+
+.green {
+    color: green;
+    font-family: 'DynaPuff', cursive;
+}
