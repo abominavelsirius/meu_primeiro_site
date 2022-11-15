@@ -1,5 +1,0 @@
-console.log("Criar um software onde as datas mais próximas ficarão mudando de cor de acordo sua estimativa de tempo.")
-console.log("ou seja, 1 semana = amarelo, 3 dias = vermelho, 1 dia = preto")
-console.log("antes disso a cor ficará azul como neutra.")
-console.log("------------------------------------------------------------------------------")
-console.log("Criar um software de sistema de data dentro")

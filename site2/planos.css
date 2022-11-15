@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+}
+
+
+.conteiner {
+	display: grid;
+	grid-area: a /b;
+	gap: 15px;
+	width: 100%;
+}
+
+
+
+.item-1 {
+background-color: greenyellow;
+}
+
+.item-2 {
+	background-color: blue;
+}
+
+
+
+
+
+
+
+.p-p {
+	color: green;
+}
+
+.p2-p {
+
+}
+
+.p3-p {
+	color: blue;
+}
+
+.p4-p {
+	color: red;
+}
+
+.p5-p {
+	color: orange;
+}
+
+
+
+
+.table-programa {
+	border-color: blue;
+	content: ;
+}
+
+
+.teste-s {
+	height: 300px;
+
+}
+

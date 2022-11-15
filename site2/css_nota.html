@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css nota</title>
+</head>
+<body>
+	<h1>Estudo de CSS</h1>
+
+	<a href="horario_dia.html">Site Principal</a>
+
+<p>	(href): É o atributo principal da tag anchor, usado para indicar a localização do arquivo de destino ao qual o link se refere
+<br>
+color = cor <br>
+font-size = tamanho da fonte <br>
+text-align = alinhamento de texto <br>
+<br>
+<br>
+font-size: 40px; <br>
+tamanho do texto <br>
+<br>
+text-align: center; <br>
+centraliza o texto <br>
+<br><br>
+-------------------------------------------
+<br>
+<br>
+CSS = decoração do site
+<br><br>
+''html tijolos, CSS abacamento, a pintura.''
+<br>
+<br>
+criar com nome.css
+<br>
+no arquivo HTML:  <br>
+< link rel="stylesheet" type="text/css" href="NOME.css"> = adicionou um arquivo CSS no projeto, assim o CSS fica linkado <br>
+< meta charset="utf-8"> = tá padronizando os caracteres pro tf8, que usamos no portugues (pra não ter erros de acentos) <br>
+<br>
+<br>
+<br>
+a maneira correta é por arquivo externo como acima
+<br>
+<br>
+<br>
+pode se fazer da maneira errada que é 
+<br>
+< p style="color:blue">   que é a TAG inline do CSS
+<br>
+ou
+<br>
+< style type="text/css"> <br>
+p {color: green} <br>
+< /style> <br>
+<br>
+<br>
+o HTML tem prioridade acima de CSS, então faça tudo por arquivo externo relacionado a CSS
+<br>
+<br>
+<br>
+<br>
+<br>
+===================================================================================================================================================================================================
+<br>
+Primeiramente sempre coloque o seletor (ex: h1) que é o elemento HTML que a gente quer mudar o estilo <br>
+{} cada linha vai ter a propriedade <br>
+: o valor da propriedade  <br>
+; pra fechar a linha <br>
+<br>
+===================================================================================================================================================================================================
+<br>
+h2 {color:green;text-align: center; font-size: 50px} = NÃO FAÇA ASSIM, É HORROROSO
+<br>
+<br>
+FAÇA ASSIM V
+<br>
+<br>
+h2 { <br>
+	color: green; <br>
+	text-align: center; <br>
+	font-size: 50px; <br>
+} <br>
+<br>
+===================================================================================================
+<br>
+COMO POR COMENTÁRIO
+<br>
+/* comentário */
+<br>
+ou
+<br>
+/* <br>
+este <br>
+é  <br>
+um <br>
+comentário <br>
+/* <br>
+<br>
+===================================================================================================
+<br><br>
+COMO COLOCAR CORES:
+<br>
+<br>
+<br>
+h1 { <br>
+	color: red <br>
+} <br>
+<br>
+<br>
+o h1 no nosso html vai ter a cor VERMELHA.
+<br>
+================================
+<br>
+p {color: green}
+<br>
+<br>
+o p no html vai ter a cor verde
+<br>
+================================
+<br>
+Classes e Ids
+<br>
+O conceito de classes, é que vou utilizar ela pra vários elementos.
+<br>
+(html) <br>
+< p class="p-texto">Algum texto 1< /p> <br>
+< p class="p-texto">Algum texto 2< /p> <br>
+< p class="p-texto">Algum texto 3< /p> <br>
+<br>
+----------------------------------------
+<br>
+(css)
+<br>
+.p-texto { <br>
+	color: lightgreen; <br>
+}^ <br>
+<br>
+<br>
+================================
+<br>
+ID
+<br>
+a gente coloca ele 1 vez em cada página. ele é unico. ele não serve pra ser compartilhado por elementos
+<br>
+(html)
+<br>
+< h3 id="titulo-app">NOME< /h3>
+<br>
+(css)
+<br>
+#titulo-app { <br>
+	color: purple; <br>
+	font-size: 40px; <br>
+} <br>
+<br>
+<br><br>
+<br>
+# = simboliza um ID <br>
+. = simboliza classe <br>
+<br>
+=========================================================================================== <br>
+FONTES <br>
+<br>
+font-size: 40px; <br>
+tamanho do texto <br>
+<br>
+text-align: center; <br>
+centraliza o texto <br>
+<br>
+<br>
+<br>
+<br>
+===========================================================================================
+<br>
+div = Quando usar div? <br>
+Resumo. O elemento de divisão HTML < div> é um container genérico para conteúdo de fluxo, que de certa forma <br>
+ não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque <br>
+ eles compartilham valores de atributos, como lang. <br>
+<br>
+<br>
+<br>
+3 maneiras de por cores no css
+<br>
+<br>
+(html)
+<br>
+< div> <br>
+	< p class="nome">nome da cor< /p> <br>
+	< p class="hexa">hexadecimal< /p> <br>
+	< p class="rgba">RGBA< /p> <br>
+< /div> <br>
+<br>
+<br>
+(css)
+<br>
+<br>
+.nome { <br>
+	color: orange; <br>
+} <br>
+<br>
+<br>
+o mais básico e menos utilizado.
+<br>
+<br>
+<br>
+.hexa { <br>
+	color: #6a40c4; <br>
+} <br>
+<br>
+<br>
+o mais utilizado é o hexa
+<br>
+<br>
+.rgba { <br>
+	color: rgba(17, 197, 214, 1); <br>
+} <br>
+<br>
+<br>
+rgba é utilizado quando a gente quer colocar transparência nas letras, senão, era mais fácil usar o hexa. <br>
+se mudar o numero 1 ali em cima pra .2 vai ficar muito mais transparente <br>
+<br>
+===========================================================================================
+<br>
+BACKGROUNDS
+<br>
+<br>
+(html)
+<br>
+< a href="nome.html">nome< /a>
+<br>
+exemplo: < a href="background.html">Para os backgrounds< /a>
+<br>
+<br>
+AÍ VOCÊ CRIA UM ARQUIVO EXTERNO COM TODO O COMANDO HTML, FAZENDO ASSIM UMA NAVEGAÇÃO DE UM SITE DENTRO DO SITE PRINCIPAL
+<br>
+<br>
+(BACKGROUND EXTERNO) <br>
+todos os comadnos html pra funcionar <br>
+<br><br>
+< link rel="stylesheet" type"text/css" href="styles.css">
+<br>
+podemos utilizar a mesma folha de estilo, não tem problema.
+<br>
+===================================================
+<br>
+<br>
+(html2)
+<br>
+< div class="div-background"> <br>
+< h1>Este é o reino dos backgrounds< /h1> <br>
+<br>
+<br>
+(css)
+<br>
+/* Backgrounds */
+<br>
+.div-background { <br>
+	background-image: url("pasta/imagem.jpg"); = adiciona uma imagem de fundo <br>
+	height: 300px; = altura da imagem <br>
+} <br>
+<br>
+h1 { <br>
+	text-align: center; <br>
+} <br>
+<br>
+<br><br>
+<br>
+===================================================
+<br>
+Para não copiar o título de outra coisa faz assim
+<br>
+(html2)
+<br>
+(html2)
+<br>
+< div class="div-background"> <br>
+< h1 class="titulo-background">Este é o reino dos backgrounds< /h1> <br>
+<br>
+<br>
+(css)
+<br>
+/* Backgrounds */
+<br>
+.div-background { <br>
+	background-image: url("pasta/imagem.jpg"); = adiciona uma imagem de fundo <br>
+	height: 300px; = altura da imagem <br>
+} <br>
+<br>
+.titulo-background { <br>
+	text-align: center; <br>
+	background-color: #000;  = fundo colorido <br>
+	color: #FFF; <br>
+} <br>
+<br>
+<br>
+
+</p>
+
+
+
+
+
+</body>
+</html>
